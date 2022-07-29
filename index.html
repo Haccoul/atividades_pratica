@@ -46,9 +46,37 @@
                     <a href="https://google.com.br" target="_blank">Leia mais</a>
                 </section>
             </article>
-            
         </main>
+        <br><hr>
+        <footer>
+            <form>
+            <h2>Deseja receber nossas newsletters?</h2>
+                <label for="nome">Nome:</label>
+                <input type="text" required id="nome" name="nomeUsuario" placeholder="Insira seu nome...">
+            <br><br>
+                <label for="email">E-mail</label>
+                <input type="email" required id="email" name="emailUsuario" placeholder="Insira seu email...">
+            <br><br>
+                <label for="sexoM">Masculino</label>
+                <input type="radio" required id="sexoM" name="sexo" value="masculino">
+                <label for="sexoF">Feminino</label>
+                <input type="radio" required id="sexoF" name="sexo" value="feminino">
+                <label for="sexoO">Outro</label>
+                <input type="radio" required id="sexoO" name="sexo" value="outro">
+                <br><br>
+                <label for="idade">Qual sua idade?</label>
+                <br>
+                <select name="idadeUsuario" id="idade" required>
+                    <option value="">--Selecione sua idade--</option>
+                    <option value="18a25">18 a 25</option>
+                    <option value="25a45">25 a 45</option>
+                    <option value="45aindf">45+</option>
+                </select>
 
+                <br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </footer>
         
     
     </body>
